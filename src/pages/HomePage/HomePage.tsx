@@ -165,20 +165,20 @@ export const HomePage = () => {
       <section className="home__category">
         <CategoryCard
           title="Phones"
-          image="/img/Phones.webp"
+          image={`${import.meta.env.BASE_URL}img/Phones.webp`}
           count={phones.length}
           mobTitle="Mobile Phones"
         />
 
         <CategoryCard
           title="Tablets"
-          image="/img/Tablets.webp"
+          image={`${import.meta.env.BASE_URL}img/Tablets.webp`}
           count={tablets.length}
         />
 
         <CategoryCard
           title="Accessories"
-          image="/img/Accessories.webp"
+          image={`${import.meta.env.BASE_URL}img/Accessories.webp`}
           count={accessories.length}
         />
       </section>
